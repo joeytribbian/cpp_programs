@@ -3,14 +3,14 @@
 using namespace std;
 int main()
 {
-    int num;
+    int number;
     cout<<"Enter a number: ";
-    cin>>num;
-    if(num%2==0)
+    cin>>number;
+    if(number%2==0)
     {
-        cout<<num<<" is an even number.";
+        cout<<number<<" is an even number.";
     }
     else{
-        cout<<num<<" is an odd number.";
+        cout<<number<<" is an odd number.";
     }
 }
