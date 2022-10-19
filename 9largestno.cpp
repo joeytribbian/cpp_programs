@@ -3,25 +3,25 @@
 using namespace std;
 int main()
 {
-    int a,b,c;
+    int f1,f2,f3;
     cout<<"Enter the first number: ";
-    cin>>a;
+    cin>>f1;
     cout<<"Enter the second number: ";
-    cin>>b;
+    cin>>f2;
     cout<<"Enter the third number: ";
-    cin>>c;
-    if(a>b)
+    cin>>f3;
+    if(f1>f2)
     {
-        if(a>c)
+        if(f1>f3)
         {
-            cout<<a<<" is the largest number.";
+            cout<<f1<<" is the largest number.";
         }
     }
-    else if(b>c)
+    else if(f2>f3)
     {
-        cout<<b<<" is the largest number.";
+        cout<<f2<<" is the largest number.";
     }
     else{
-        cout<<c<<" is the largest number.";
+        cout<<f3<<" is the largest number.";
     }
 }
