@@ -3,14 +3,14 @@
 using namespace std;
 int main()
 {
-    char c;
+    char character;
     cout<<"Enter an alphabet: ";
-    cin>>c;
-    if(!isalpha(c))
+    cin>>character;
+    if(!isalpha(character))
     {
-        cout<<"Invalid";
+        cout<<"Invalid number";
     }
-    else if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'|| c=='A' || c=='E'|| c=='I' || c=='O'|| c=='U')
+    else if(character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u'|| character=='A' || character=='E'|| character=='I' || character=='O'|| character=='U')
     {
         cout<<"Its a vowel";
     }
