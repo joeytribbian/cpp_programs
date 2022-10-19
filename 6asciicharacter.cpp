@@ -3,9 +3,9 @@
 using namespace std;
 int main()
 {
-    char p;
+    char character;
     cout<<"Enter a character: ";
-    cin>>p;
-    cout<<"ASCII value of "<<p<<" is "<<int(p);
+    cin>>character;
+    cout<<"ASCII value of "<<character<<" is "<<int(character);
     return 0;
 }
